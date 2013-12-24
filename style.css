@@ -1,0 +1,34 @@
+/*
+site sytle sheet start. copied from ruby app.
+ */
+body {
+  font-size:100%;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top:42px;
+  position:absolute;
+    
+}
+
+header {
+    position:fixed;
+    top:0;
+    width:100%;
+    height:30px;
+    background-color:#077;
+    padding:10px;
+}
+
+footer {
+    background-color: #077;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    text-align:right;
+    font-size:0.875em;
+}
+#main{
+    padding-top:100px;
+    text-align:center;
+}

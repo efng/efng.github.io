@@ -2,33 +2,61 @@
 site sytle sheet start. copied from ruby app.
  */
 body {
-  font-size:100%;
-    padding: 0;
-    margin: 0;
+    font-size:100%;
+    padding: .5em;
+    margin: 0em;
     position: fixed;
-    top:42px;
-  position:absolute;
-    
-}
-
-header {
-    position:fixed;
-    top:0;
-    width:100%;
-    height:30px;
-    background-color:#077;
-    padding:10px;
+    top: 2em;
 }
 
 footer {
-    background-color: #077;
+    background-color: #007777;
     width: 100%;
     bottom: 0;
     position: fixed;
-    text-align:right;
-    font-size:0.875em;
-}
-#main{
-    padding-top:100px;
     text-align:center;
+    font-size:0.875em;
+    left: 0em;
+    box-shadow: inset 0 0 10px #000000;
+
+}
+
+footer img {
+    max-width: 50px;
+    max-height: 50px;
+    padding: 0px 20px;
+
+}
+
+header {
+
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:1.25em;
+    background-color: #007777;
+    padding:10px;
+
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0em .5em;
+    text-align: right;
+}
+
+header ul li { display: inline; }
+
+header a {
+  text-decoration: none;
+  padding: .2em .5em;
+  color: #ddd;
+  background-color: #369;
+}
+
+header a:hover {
+  background-color: #44b;
+  color: #fff;
 }

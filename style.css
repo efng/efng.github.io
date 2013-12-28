@@ -1,30 +1,8 @@
 /*
-site sytle sheet start. copied from ruby app.
+40 days of ruby
  */
 body {
     font-size:100%;
-    padding: .5em;
-    margin: 0em;
-    position: fixed;
-    top: 2em;
-}
-
-footer {
-    background-color: #007777;
-    width: 100%;
-    bottom: 0;
-    position: fixed;
-    text-align:center;
-    font-size:0.875em;
-    left: 0em;
-    box-shadow: inset 0 0 10px #000000;
-
-}
-
-footer img {
-    max-width: 50px;
-    max-height: 50px;
-    padding: 0px 20px;
 
 }
 
@@ -37,13 +15,17 @@ header {
     height:1.25em;
     background-color: #007777;
     padding:10px;
+    box-shadow: inset 0 0 10px #000000;
 
 }
 
+.navhome {
+    float: left;
+}
 header ul {
     list-style-type: none;
     margin: 0px;
-    padding: 0em .5em;
+    padding: 0em 1em;
     text-align: right;
 }
 
@@ -52,11 +34,46 @@ header ul li { display: inline; }
 header a {
   text-decoration: none;
   padding: .2em .5em;
-  color: #ddd;
-  background-color: #369;
+  color: #dddddd;
+  
 }
 
 header a:hover {
-  background-color: #44b;
-  color: #fff;
+  background-color: #007777;
+  color: #000;
+  box-shadow: inset 0 0 15px #fff;
+  border-radius: 50px;
+
+}
+
+article {
+    float: left;
+    padding: 1em 100px 3em 100px;
+}
+
+
+footer {
+    background-color: #007777;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    text-align:center;
+    left: 0em;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px 15px;
+    border-radius: 50px;
+    border: 2px outset;
+
+}
+
+footer img:hover {
+    background-color: #006666;
+    border-style: inset;
+
 }

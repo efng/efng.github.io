@@ -119,6 +119,30 @@
     </section>   <!-- tech-learn -->
 
     <section id-"current-proj">
+    Current Project: HWTF[GITHUB LINK TO PROJECT]
+    This is an application I have written to find new mturk[MTURK LINK] jobs and then display them in batches.
+
+    Currently it scrapes 2 different websites and saves new jobs to a SQL database. It does this using a job queue system. 
+
+    In addation to Rails this project uses the foloowing gems:
+
+    activejob_backport to use the 4.2 Rails front-end job queue system
+    DelayJobs (DJ) for job queueing
+    Mechnize[https://github.com/sparklemotion/mechanize] to webscrape mturkgrind for valid links
+    RedditKit[https://github.com/samsymons/RedditKit.rb] to scrape /r/HITsWorthTurkingFor[http://www.reddit.com/r/HITsWorthTurkingFor/]
+
+gem 'redditkit'
+
+# mechanize for webscraping mturkgrind
+gem 'mechanize'
+
+gem 'activejob_backport'
+
+gem 'delayed_job_active_record'
+
+
+
+
         
 
     </section>  <!-- current-proj -->
